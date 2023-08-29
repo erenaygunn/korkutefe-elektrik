@@ -1,12 +1,11 @@
-import { useState } from 'react'
-import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import MyNavbar from './components/MyNavbar/MyNavbar'
+
 
 function App() {
 
   return (
-    <>
-        
-    </>
+    <MyNavbar></MyNavbar>
   )
 }
 
