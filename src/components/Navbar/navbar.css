@@ -55,7 +55,7 @@ header .nav-btn {
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-		transition: 1s;
+		transition: 0.3s;
 	}
 
 	header .responsive_nav {
@@ -69,6 +69,6 @@ header .nav-btn {
 	}
 
 	nav a {
-		font-size: 1.5rem;
+		font-size: 1rem;
 	}
 }

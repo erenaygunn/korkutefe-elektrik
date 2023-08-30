@@ -1,0 +1,10 @@
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    overflow: hidden;
+    background: #000000;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.315)), url('../../images/foto1.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url('../../images/foto1.jpeg') no-repeat; 
+    background-size: cover;
+  }
