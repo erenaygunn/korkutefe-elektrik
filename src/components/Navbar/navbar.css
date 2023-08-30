@@ -1,0 +1,74 @@
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 80px;
+	padding: 0 2rem;
+}
+
+header a {
+	text-decoration: none;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+nav a {
+	margin: 0 3rem;
+}
+
+nav a:hover {
+}
+
+header .nav-btn {
+	display: none;
+	padding: 5px;
+	background: transparent;
+	border: none;
+	outline: none;
+	visibility: hidden;
+	font-size: 1.8rem;
+}
+
+.hide {
+	opacity: 0;
+}
+
+@media only screen and (max-width: 800px) {
+	header {
+		justify-content: space-between;
+	}
+
+	header .nav-btn {
+		display: inline;
+		visibility: visible;
+	}
+
+	header nav {
+		position: fixed;
+		top: -100vh;
+		right: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		transition: 1s;
+	}
+
+	header .responsive_nav {
+		transform: translateY(110vh);
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: -5rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+}
