@@ -37,7 +37,7 @@ nav a:hover {
 }
 
 nav a:after {
-	transition: all ease-in-out .2s;
+	transition: all ease-in-out .3s;
     background: none repeat scroll 0 0 gold;
     content: "";
     display: block;
