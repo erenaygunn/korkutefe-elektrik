@@ -27,6 +27,7 @@
   padding-bottom: 30px;
   margin-bottom: 30px;
   font-size: 3rem;
+  font-weight: 700;
 }
 
 .hero .container h1:after {
@@ -49,7 +50,7 @@
 .hero .container .action {
   margin-top: 30px;
   width: 150px;
-  height: 50px;
+  height: 55px;
   border: none;
   border: 1px solid transparent;
   border-radius: 25px;

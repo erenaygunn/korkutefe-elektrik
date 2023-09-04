@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./navbar.css";
 import React from 'react'
+import logo from "../../images/logo.png"
 
 
 
@@ -19,7 +20,7 @@ const Navbar = () => {
 
   return (
     <header>
-			<a href="/" className="logo">Korkut Efe <br/>Elektrik</a>
+			<a href="/" className="logo"><img src={logo} alt="logo" width='200px'/></a>
 			<div className="navbar">
 				<nav ref={navRef}>
 					<a href="/#">ANA SAYFA</a>

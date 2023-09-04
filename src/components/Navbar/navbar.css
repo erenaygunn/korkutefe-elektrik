@@ -31,6 +31,7 @@ nav a {
 	margin: 0 3rem;
 	color: #ffffffad;
 	transition: 0.3s;
+	white-space: nowrap;
 }
 
 nav a:hover {
@@ -64,7 +65,13 @@ header .nav-btn {
 	opacity: 0;
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
+	nav a {
+		margin: 0 2.5rem;
+	}
+}
+
+@media screen and (max-width: 800px) {
 	header {
 		justify-content: space-between;
 	}
