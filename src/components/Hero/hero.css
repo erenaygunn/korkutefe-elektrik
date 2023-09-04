@@ -1,11 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
 .hero {
-    width: 100vw;
-    height: 100vh;
-    background: black;
-    overflow: hidden;
-    background: #000000;
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url('../../images/elektrik.jpg');
-    background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url('../../images/elektrik.jpg') no-repeat; 
-    background-size: cover;
-    background-position: center;
+  font-family: 'PT Sans', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #000000;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url('../../images/elektrik.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url('../../images/elektrik.jpg') no-repeat; 
+  background-size: cover;
+  background-position: center;
   }
+
+.hero .container {
+  margin-top: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero .container h1 {
+  color: white;
+  position: relative;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  font-size: 3rem;
+}
+
+.hero .container h1:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 130px;
+  height: 4px;
+  background: gold;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.hero .container h4 {
+  color: #e2e2e2;
+}
+
+.hero .container .action {
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+}
