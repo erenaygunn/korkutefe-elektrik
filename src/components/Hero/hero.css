@@ -51,8 +51,16 @@
   width: 150px;
   height: 50px;
   border: none;
+  border: 1px solid transparent;
   border-radius: 25px;
   background-color: white;
   color: black;
   font-weight: 700;
+  transition: 0.2s;
+}
+
+.hero .container .action:hover {
+  color: white;
+  background-color: transparent;
+  border: 1px solid gold;
 }
