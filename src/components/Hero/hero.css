@@ -7,4 +7,5 @@
     background: -webkit-linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url('../../images/elektrik.jpg');
     background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.652)), url('../../images/elektrik.jpg') no-repeat; 
     background-size: cover;
+    background-position: center;
   }

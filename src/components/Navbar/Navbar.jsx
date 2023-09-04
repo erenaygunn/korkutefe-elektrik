@@ -23,8 +23,8 @@ const Navbar = () => {
 			<div className="navbar">
 				<nav ref={navRef}>
 					<a href="/#">ANA SAYFA</a>
+					<a href="/#">PROJELER</a>
 					<a href="/#">HAKKIMIZDA</a>
-					<a href="/#">GALERİ</a>
 					<a href="/#">İLETİŞİM</a>
 					<button
 						className="nav-btn nav-close-btn"

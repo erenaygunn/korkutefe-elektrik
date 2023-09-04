@@ -18,7 +18,8 @@ header a {
 .logo {
 	font-family: 'Dancing Script', cursive;
 	text-align: center;
-	font-size: 2rem;
+	font-size: 1.5rem;
+	color: gold;
 }
 
 nav {
