@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
@@ -9,6 +9,7 @@ import Card from 'react-bootstrap/Card';
 import "./hizmetler.css"
 
 const Hizmetler = () => {
+
   return (
     <div className='hizmetler'>
         <h5>HİZMETLER</h5>
