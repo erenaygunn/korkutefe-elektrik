@@ -9,6 +9,7 @@ function App() {
   return (
     <div>
       <Hero></Hero>
+      <Hizmetler></Hizmetler>
     </div>
 
   )
