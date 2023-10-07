@@ -2,11 +2,11 @@ import React from 'react'
 import trafo from '../../images/trafo.jpg'
 import "./card.css"
 
-const Card = () => {
+const Card = (props) => {
   return (
     <div className='card'>
-        <img src={trafo} alt="img" />
-        <p>Trafo Kiralama</p>
+        <img src={props.image} alt="img" />
+        <p>{props.title}</p>
     </div>
   )
 }

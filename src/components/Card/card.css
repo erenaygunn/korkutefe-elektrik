@@ -1,6 +1,7 @@
 .card {
     text-align: center;
     border-radius: 25px;
+    margin: 0 60px;
 }
 
 .card img {
@@ -16,8 +17,44 @@
     bottom: 0;
     background-color: black;
     border-radius: 0 0 25px 25px;
-    width: 300px;
+    width: 100%;
     margin: 0;
     padding-top: 14px;
     height: 60px;
+}
+
+.responsive-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 1919px) {
+    .card {
+        margin: 0 30px;
+    }  
+}
+
+@media screen and (max-width: 1510px) {
+    .card {
+        margin: 15px 60px;
+    }   
+}
+
+@media screen and (max-width: 870px) {
+    .responsive-row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card {
+        margin: 15px 30px;
+    }    
+}
+
+@media screen and (max-width: 600px) {
+    .card img{
+        width: 240px;
+        height: 320px;
+    }
 }

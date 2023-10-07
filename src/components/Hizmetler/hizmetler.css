@@ -15,7 +15,7 @@
     font-size: 2rem;
     position: relative;
     padding-bottom: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .hizmetler h5:after {
@@ -39,4 +39,11 @@
     align-items: center;
     flex-direction: row;
     margin: 0 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .hizmetler h5 {
+        margin-bottom: 25px;
+        font-size: 1.5rem;
+    }
 }
