@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+.projeler {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 60px;
+    background-color: rgb(244, 244, 244);
+}
+
+.projeler h5 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.proje-container {
+    display: flex;
+}
+
+.proje {
+    margin: 0 40px;
+}
+
+.proje img {
+    width: 450px;
+}
