@@ -26,6 +26,7 @@
 .proje {
     margin: 0 40px;
     background-color: #fff;
+    border-radius: 8px;
 }
 
 .proje .proje-link {
@@ -35,6 +36,7 @@
 
 .proje .proje-img {
     width: 450px;
+    border-radius: 10px 10px 0 0;
 }
 
 .proje .proje-caption {
@@ -69,6 +71,7 @@
     align-items: center;
     justify-content: center;
     transition: opacity 0.3s ease-in-out;
+    border-radius: 8px;
 }
 
 .overlay img {
@@ -78,4 +81,44 @@
 
 .proje .proje-link:hover .overlay {
     opacity: 1;
+}
+
+@media screen and (max-width: 1615px) {
+    .proje .proje-img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .projeler h5 {
+        margin-bottom: 60px;
+    }
+    .proje-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .proje {
+        margin: 0 0 60px 0;
+    }
+
+    .proje .proje-img {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .proje .proje-img {
+        width: 300px;
+    }
+
+    .projeler h5 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .proje .proje-img {
+        width: 250px;
+    }
 }
