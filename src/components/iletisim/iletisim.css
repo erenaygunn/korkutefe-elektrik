@@ -1,0 +1,41 @@
+.iletisim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+
+.iletisim h5 {
+    font-weight: 700;
+    font-size: 2.2rem;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.iletisim-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.iletisim-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 500px;
+    margin: 0 30px;
+}
+
+.iletisim-card h6 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.iletisim-card img {
+    width: 180px;
+    margin-bottom: 20px;
+}
