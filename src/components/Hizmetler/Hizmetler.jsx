@@ -7,7 +7,7 @@ const Hizmetler = () => {
 
   return (
     <section className='hizmetler'>
-        <h5>HİZMETLER</h5>
+        <h5 data-aos="fade-up">HİZMETLER</h5>
         <div className="hizmet-cards">
           <div className='responsive-row'>
             <Card image={trafo} title='Trafo Kiralama'></Card>

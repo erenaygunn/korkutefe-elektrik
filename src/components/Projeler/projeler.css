@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 .projeler {
     display: flex;
@@ -17,6 +17,20 @@
     font-size: 2.5rem;
     position: relative;
     margin-bottom: 80px;
+    padding-bottom: 20px;
+}
+
+.projeler h5:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 130px;
+    height: 4px;
+    background: rgb(255, 208, 0);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 .proje-container {
