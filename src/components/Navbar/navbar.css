@@ -59,6 +59,7 @@ header .nav-btn {
 	outline: none;
 	visibility: hidden;
 	font-size: 1.8rem;
+	filter: brightness(0) invert(80%);
 }
 
 .hide {
