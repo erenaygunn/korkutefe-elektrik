@@ -1,12 +1,14 @@
 import React from 'react'
-import trafo from '../../images/trafo.jpg'
 import "./card.css"
 
 const Card = (props) => {
+  const { icon, title, children } = props;
+
   return (
     <div className='card' data-aos="fade-up">
-        <img src={props.image} alt="img" />
-        <p>{props.title}</p>
+        <img src={icon} alt="icon" />
+        <h6>{title}</h6>
+        <p>{children}</p>
     </div>
   )
 }
