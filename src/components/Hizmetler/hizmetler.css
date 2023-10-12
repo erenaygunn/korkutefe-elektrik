@@ -6,7 +6,7 @@
     justify-content: center;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 60px;
+    padding-top: 60px;
     margin-bottom: 20px;
 }
 
@@ -43,7 +43,7 @@
 
 @media screen and (max-width: 800px) {
     .hizmetler h5 {
-        margin-bottom: 25px;
-        font-size: 1.5rem;
+        margin-bottom: 40px;
+        font-size: 1.8rem;
     }
 }
