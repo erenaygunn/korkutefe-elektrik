@@ -37,8 +37,8 @@ const Projeler = () => {
                 </div>
             </a>
             <div className="proje-caption">
-              <p className='proje-title'>Proje Adı</p>
-              <p className='proje-date'>2019</p>
+              <p className='proje-title'>Sample Project</p>
+              <p className='proje-date'>2023</p>
             </div>
           </div>
           <div className="proje" data-aos="fade-up">
@@ -49,8 +49,8 @@ const Projeler = () => {
                 </div>
             </a>
             <div className="proje-caption">
-              <p className='proje-title'>Proje Adı</p>
-              <p className='proje-date'>2019</p>
+              <p className='proje-title'>Örnek İnşaat</p>
+              <p className='proje-date'>2023</p>
             </div>
           </div>
           <div className="proje" data-aos="fade-up">
@@ -61,8 +61,8 @@ const Projeler = () => {
                 </div>
             </a>
             <div className="proje-caption">
-              <p className='proje-title'>Proje Adı</p>
-              <p className='proje-date'>2019</p>
+              <p className='proje-title'>Trafo</p>
+              <p className='proje-date'>2023</p>
             </div>
           </div>
         </div>
@@ -74,13 +74,13 @@ const Projeler = () => {
         <Modal.Body>
         <Carousel>
           <Carousel.Item>
-            <img src={trafo} alt='' width='500px'/>
+            <img src={trafo} alt='' width='100%'/>
           </Carousel.Item>
           <Carousel.Item>
-            <img src={trafo} alt='' width='500px'/>
+            <img src={trafo} alt='' width='100%'/>
           </Carousel.Item>
           <Carousel.Item>
-            <img src={trafo} alt='' width='500px'/>
+            <img src={trafo} alt='' width='100%'/>
           </Carousel.Item>
         </Carousel>
         </Modal.Body>
