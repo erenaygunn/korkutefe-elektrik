@@ -5,6 +5,8 @@ import collectionfill from "../../images/collectionfill.svg"
 import { useState } from 'react'
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import Carousel from 'react-bootstrap/Carousel'
+import trafo from "../../images/proje/trafo.jpg"
 
 const Projeler = () => {
 
@@ -40,7 +42,7 @@ const Projeler = () => {
             </div>
           </div>
           <div className="proje" data-aos="fade-up">
-            <a className="proje-link">
+            <a className="proje-link" onClick={handleShow2}>
               <img src={bir} alt="" className='proje-img'/>
                 <div className="overlay">
                   <img src={collectionfill} alt=""/>
@@ -52,7 +54,7 @@ const Projeler = () => {
             </div>
           </div>
           <div className="proje" data-aos="fade-up">
-            <a className="proje-link">
+            <a className="proje-link" onClick={handleShow3}>
               <img src={bir} alt="" className='proje-img'/>
                 <div className="overlay">
                   <img src={collectionfill} alt="" />
@@ -67,9 +69,21 @@ const Projeler = () => {
 
         <Modal show={show1} onHide={handleClose1}>
         <Modal.Header closeButton>
-            <Modal.Title>Modal heading</Modal.Title>
+            <Modal.Title>Sample Project</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
+        <Modal.Body>
+        <Carousel>
+          <Carousel.Item>
+            <img src={trafo} alt='' width='500px'/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src={trafo} alt='' width='500px'/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src={trafo} alt='' width='500px'/>
+          </Carousel.Item>
+        </Carousel>
+        </Modal.Body>
         <Modal.Footer>
             <Button variant="secondary" onClick={handleClose1}>
             Close
@@ -82,7 +96,7 @@ const Projeler = () => {
 
         <Modal show={show2} onHide={handleClose2}>
         <Modal.Header closeButton>
-            <Modal.Title>Modal heading</Modal.Title>
+            <Modal.Title>Örnek İnşaat</Modal.Title>
         </Modal.Header>
         <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
         <Modal.Footer>
@@ -97,7 +111,7 @@ const Projeler = () => {
 
         <Modal show={show3} onHide={handleClose3}>
         <Modal.Header closeButton>
-            <Modal.Title>Modal heading</Modal.Title>
+            <Modal.Title>Trafo</Modal.Title>
         </Modal.Header>
         <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
         <Modal.Footer>
