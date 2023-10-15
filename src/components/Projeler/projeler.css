@@ -98,6 +98,42 @@
     cursor: pointer;
 }
 
+
+/* Modals */
+
+.modal-content {
+    width: 200%;
+    right: 50%;
+}
+
+.modal-content img {
+    width: 100%;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1050px) {
+    .modal-content {
+        width: 150%;
+        right: 25%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .modal-content {
+        width: 110%;
+        right: 5%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .modal-content {
+        width: 100%;
+        right: 0;
+        top: 200px;
+    }
+}
+
 @media screen and (max-width: 1615px) {
     .proje .proje-img {
         width: 300px;
