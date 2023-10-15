@@ -21,8 +21,18 @@
 .hizmetler p {
      margin-top: 30px;
      text-align: center;
-     padding: 0 15px;
+     padding: 0 25px;
     }
+
+.hizmetler p a {
+    font-weight: 600;
+    color: rgb(255, 187, 0);
+    text-decoration: none;
+}
+
+.hizmetler p a:hover {
+    color: gold;
+}
 
 .hizmetler h5:after {
     content: "";
