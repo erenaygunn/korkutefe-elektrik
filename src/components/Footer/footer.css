@@ -23,6 +23,10 @@ footer .links img {
     width: 40px;
 }
 
+footer .links img:hover {
+    opacity: 80%;
+}
+
 @media screen and (max-width:750px) {
     footer {
         flex-direction: column;
