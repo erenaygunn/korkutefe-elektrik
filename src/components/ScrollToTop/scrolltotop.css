@@ -1,0 +1,39 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.scroll-to-top button {
+    background: none;
+    border: none;
+}
+  
+.scroll-to-top img {
+    width: 70px;
+    transition: 0.15s;
+}
+
+.scroll-to-top:hover img {
+    opacity: 75%;
+}
+
+.scroll-to-top.visible {
+    display: block;
+    opacity: 1;
+}
+
+@media screen and (max-width:750px) {
+    .scroll-to-top img {
+        width: 50px;
+    }
+
+    .scroll-to-top {
+        bottom: 20px;
+        right: 20px;
+    }
+}
