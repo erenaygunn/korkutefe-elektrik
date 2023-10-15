@@ -63,11 +63,8 @@
   color: black;
 }
 
-.hero .container .action:hover a {
-  color: white;
-}
-
 .hero .container .action:hover{
   background-color: transparent;
   border: 1px solid gold;
+  color: white;
 }
