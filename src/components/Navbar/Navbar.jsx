@@ -23,10 +23,10 @@ const Navbar = () => {
 			<a href="/" className="logo"><img src={logo} alt="logo" width='200px'/></a>
 			<div className="navbar">
 				<nav ref={navRef}>
-					<a href="#anasayfa">ANA SAYFA</a>
-					<a href="#hizmetler">HİZMETLER</a>
-					<a href="#projeler">PROJELER</a>
-					<a href="#iletisim">İLETİŞİM</a>
+					<a href="#anasayfa" onClick={showNavbar}>ANA SAYFA</a>
+					<a href="#hizmetler" onClick={showNavbar}>HİZMETLER</a>
+					<a href="#projeler" onClick={showNavbar}>PROJELER</a>
+					<a href="#iletisim" onClick={showNavbar}>İLETİŞİM</a>
 					<button
 						className="nav-btn nav-close-btn"
 						onClick={showNavbar}>
