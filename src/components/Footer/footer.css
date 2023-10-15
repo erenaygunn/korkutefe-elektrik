@@ -7,6 +7,7 @@ footer {
     justify-content: space-around;
     background-color: rgb(244, 244, 244);
     padding: 30px;
+    text-align: center;
 }
 
 footer .links {
