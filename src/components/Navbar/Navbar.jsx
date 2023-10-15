@@ -23,10 +23,10 @@ const Navbar = () => {
 			<a href="/" className="logo"><img src={logo} alt="logo" width='200px'/></a>
 			<div className="navbar">
 				<nav ref={navRef}>
-					<a href="/#">ANA SAYFA</a>
-					<a href="/#">HİZMETLER</a>
-					<a href="/#">PROJELER</a>
-					<a href="/#">İLETİŞİM</a>
+					<a href="#anasayfa">ANA SAYFA</a>
+					<a href="#hizmetler">HİZMETLER</a>
+					<a href="#projeler">PROJELER</a>
+					<a href="#iletisim">İLETİŞİM</a>
 					<button
 						className="nav-btn nav-close-btn"
 						onClick={showNavbar}>

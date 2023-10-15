@@ -35,7 +35,7 @@ const Projeler = () => {
     const handleShow3 = () => setShow3(true);
 
   return (
-    <section className='projeler' data-aos="fade-up">
+    <section className='projeler' data-aos="fade-up" id='projeler'>
         <h5>PROJELER</h5>
         <div className="proje-container">
           <div className="proje" data-aos="fade-up">

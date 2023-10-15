@@ -6,7 +6,7 @@ import email from "../../images/email.png"
 
 const Iletisim = () => {
   return (
-    <section className='iletisim'>
+    <section className='iletisim' id='iletisim'>
       <h5 data-aos='fade-down'>İLETİŞİM</h5>
       <div className="iletisim-container">
         <div className="iletisim-card" data-aos="fade-up">
