@@ -21,6 +21,7 @@ const Hizmetler = () => {
             <Card icon={fix} title='Arıza Giderme'>Arıza giderme hizmetimizle elektrik sorunlarınızı hızlı ve güvenilir bir şekilde çözüyoruz. Deneyimli ekibimiz, elektrik kesintilerini teşhis eder, onarımları hızla yapar ve kesintisiz enerji sağlar. Elektrik sistemlerinizde güvenilirlik ve sürekli işlerlik sağlamak için buradayız.</Card>
           </div>
         </div>
+        <p>Sunduğumuz diğer hizmetler dahil olmak üzere bilgi almak için <a href='#'> bize ulaşın.</a></p>
     </section>
   )
 }

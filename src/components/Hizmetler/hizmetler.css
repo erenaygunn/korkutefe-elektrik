@@ -18,6 +18,12 @@
     margin-bottom: 80px;
 }
 
+.hizmetler p {
+     margin-top: 30px;
+     text-align: center;
+     padding: 0 15px;
+    }
+
 .hizmetler h5:after {
     content: "";
     position: absolute;
@@ -45,5 +51,11 @@
     .hizmetler h5 {
         margin-bottom: 40px;
         font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .hizmetler p {
+        font-size: 0.8rem;
     }
 }
