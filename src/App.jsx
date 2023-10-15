@@ -4,6 +4,7 @@ import Hizmetler from './components/Hizmetler/Hizmetler'
 import Projeler from './components/Projeler/Projeler'
 import Iletisim from './components/iletisim/iletisim'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
+import Footer from './components/Footer/Footer'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Hizmetler></Hizmetler>
       <Projeler></Projeler>
       <Iletisim></Iletisim>
+      <Footer></Footer>
     </div>
 
   )
