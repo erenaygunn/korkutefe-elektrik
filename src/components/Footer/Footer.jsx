@@ -8,8 +8,8 @@ const Footer = () => {
     <footer>
         <div className="info">Copyright © Eren Aygün • 2023</div>
         <div className="links">
-            <a href=""><img src={linkedin} alt="linkedin"/></a>
-            <a href=""><img src={github} alt="github"/></a>
+            <a href="https://www.linkedin.com/in/eren-ayg%C3%BCn-9ba060251/" target='_blank'><img src={linkedin} alt="linkedin"/></a>
+            <a href="https://github.com/erenaygunn" target='_blank'><img src={github} alt="github"/></a>
         </div>
     </footer>
   )
