@@ -1,6 +1,5 @@
 import "./scrolltotop.css"
 import React, { useState, useEffect } from 'react';
-import { FaArrowCircleUp } from 'react-icons/fa';
 import uparrow from "../../images/uparrow.png"
 
 const ScrollToTop = () => {
