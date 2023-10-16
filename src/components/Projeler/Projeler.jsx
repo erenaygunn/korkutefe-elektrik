@@ -1,9 +1,7 @@
 import React from 'react'
 import "./projeler.css"
-import bir from "../../images/bir.jpg"
 import collectionfill from "../../images/collectionfill.svg"
 import { useState } from 'react'
-import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Carousel from 'react-bootstrap/Carousel'
 import trafo from "../../images/proje/trafo.jpg"
