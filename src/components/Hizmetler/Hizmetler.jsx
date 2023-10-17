@@ -13,7 +13,7 @@ const Hizmetler = () => {
         <h5 data-aos="fade-up">HİZMETLER</h5>
         <div className="hizmet-cards">
           <div className='responsive-row'>
-            <Card icon={transformer} title='Trafo Kiralama'>Elektrikçi olarak, trafo kiralama hizmeti sunuyoruz. İhtiyacınıza uygun trafo seçenekleri ve güvenilir ekipmanlarla, enerji dağıtımınızı kolaylaştırıyoruz. Kiralama sürecimiz hızlı ve uygun maliyetli olup, müşterilerimize güçlü bir enerji kaynağı sunmamızı sağlar. Elektrik enerjisi ihtiyaçlarınızı en verimli şekilde karşılıyoruz.</Card>
+            <Card icon={transformer} title='Jeneratör Kiralama'>Elektrikçi olarak, jeneratör kiralama hizmeti sunuyoruz. İhtiyacınıza uygun jeneratör seçenekleri ve güvenilir ekipmanlarla, enerji dağıtımınızı kolaylaştırıyoruz. Kiralama sürecimiz hızlı ve uygun maliyetli olup, müşterilerimize güçlü bir enerji kaynağı sunmamızı sağlar. Elektrik enerjisi ihtiyaçlarınızı en verimli şekilde karşılıyoruz.</Card>
             <Card icon={cable} title='Elektrik Bağlama'>Elektrik bağlama hizmetimizle elektrik ihtiyaçlarınıza profesyonel ve güvenilir çözümler sunuyoruz. Deneyimli ekibimiz, elektrik tesisatı kurulumlarından priz ve anahtar montajlarına kadar geniş bir yelpazede hizmet verir. Elektrik bağlamada güvenli ve düzenli bağlantıları sağlamak için buradayız, elektrik projelerinizde yanınızdayız.</Card>
           </div>
           <div className='responsive-row'>
